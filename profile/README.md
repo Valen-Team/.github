@@ -20,8 +20,6 @@
 
 We build open models and tools for **fast multimodal decision-making**. Our goal is to help agents perceive their environment, choose useful actions, and improve through feedback.
 
-We focus on the fast side of intelligence: turning observations and task instructions into structured decisions that software can use.
-
 ## Projects
 
 | Project | What it does | Status |
