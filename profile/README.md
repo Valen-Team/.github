@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Valen-Team/.github/main/profile/assets/logo-new.png" alt="Valen logo" width="144" />
+  <img src="https://raw.githubusercontent.com/Valen-Team/.github/main/profile/assets/logo-new.jpg" alt="Valen logo" width="144" />
 </p>
 
 <h1 align="center">Valen · 万澜</h1>
