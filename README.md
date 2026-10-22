@@ -2,6 +2,8 @@
 
 Organization profile for [Valen Team](https://github.com/Valen-Team).
 
+An open-source organization bringing together fast decision models, recursive self-improvement (RSI), and agents.
+
 - [English profile](profile/README.md)
 - [中文主页](profile/README_zh-CN.md)
 

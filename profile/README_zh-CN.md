@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>快速决策，持续进化。</strong><br />
-  面向决策智能体的开源模型、评测工具与研究资源。
+  快速决策模型 · 递归自我改进（RSI）· Agent 智能体
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://valen-team.github.io/">在线体验</a> ·
+  <a href="https://valen-team.github.io/">网站</a> ·
   <a href="https://valen-team.github.io/docs/">文档</a> ·
   <a href="https://huggingface.co/Valen-Team">Hugging Face</a> ·
   <a href="https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard">排行榜</a>
@@ -22,9 +22,17 @@
 
 ---
 
-我们围绕**快速多模态决策**构建开源模型与工具，并整理**递归自我改进（Recursive Self-Improvement，RSI）**研究资源。我们希望帮助智能体感知环境、选择有效行动，并通过反馈持续改进。
+**Valen · 万澜**是一个聚合**快速决策模型**、**递归自我改进（Recursive Self-Improvement，RSI）**与 **Agent 智能体**的开源组织。我们开发并汇集模型、工具、研究资源与应用，帮助 Agent 快速做出决策、与环境交互，并通过经验与反馈持续改进。
 
-三个项目分别承接这一方向的不同环节：**Valen-Decision** 用于决策，**JevalKit** 用于评测，**Awesome-RSI** 用于探索 AI 系统如何持续改进。
+我们希望将高效决策与能够持续学习、适应的 Agent 连接起来，欢迎不同方向的研究者与开发者在这里共同构建、评测并分享成果。
+
+## 我们关注的方向
+
+- **快速决策模型**：从文本、图像与视频中低延迟地做出决策，提供可供 Agent 选择行动、路由任务和判断状态的结构化输出。
+- **递归自我改进（RSI）**：探索经验学习、记忆与技能复用、工具与 Agent 工作流程改进，以及模型参数更新。我们关注可复现的证据，验证这些变化能否带来持续的能力提升。
+- **Agent 智能体**：构建 Agent 框架、工具与应用，将感知、规划、决策和执行连接起来，面向交互环境开展研究与实践。
+
+这三个方向相互连接：决策模型帮助 Agent 选择行动，Agent 的运行产生经验与反馈，RSI 探索如何将这些反馈转化为改进。评测贯穿其中，用来验证改进是否有效。
 
 ## 开源项目
 
@@ -34,22 +42,11 @@
 | **[JevalKit](https://github.com/Valen-Team/JevalKit)** | 面向 Jev 类决策模型的开源评测工具，提供统一模型接口、预处理数据集、基准评分与公开排行榜。 | [文档](https://valen-team.github.io/docs/jevalkit/) · [排行榜](https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard) |
 | **[Awesome-RSI](https://github.com/Valen-Team/Awesome-RSI)** | 递归自我改进资源合集，涵盖论文、代码、基准、数据集与模型，围绕经验积累、系统修改和模型参数更新三条路径整理。 | [论文](https://github.com/Valen-Team/Awesome-RSI#papers) · [项目](https://github.com/Valen-Team/Awesome-RSI#projects) |
 
+目前公开的项目覆盖决策模型、评测与 RSI 研究资源。后续我们将陆续加入更多 **Agent 与 RSI 项目**，分享可用的实现、实验与可复用工具。
+
 ## 模型、数据集与评测
 
-| 资源 | 用途 |
-| :--- | :--- |
-| **Valen-Decision 模型** — [0.8B](https://huggingface.co/Valen-Team/Valen-0.8B) · [2B](https://huggingface.co/Valen-Team/Valen-2B) · [4B](https://huggingface.co/Valen-Team/Valen-4B) | 运行或微调多模态决策模型。 |
-| **[VisualDecisionBench](https://huggingface.co/datasets/Valen-Team/VisualDecisionBench)** | 评测基于图像与视频的决策能力。 |
-| **[JevalKit Datasets](https://huggingface.co/datasets/Valen-Team/JevalKit_Datasets)** | 下载已预处理的决策模型基准评测数据。 |
-| **[JevalKit Leaderboard](https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard)** | 跨基准比较模型、查看概率指标并下载评测结果。 |
-
 在 [Hugging Face](https://huggingface.co/Valen-Team) 浏览全部发布资源，或从[文档](https://valen-team.github.io/docs/)开始使用 Valen-Decision 和 JevalKit。
-
-## 研究方向
-
-- **多模态决策**：从文本、图像与视频中快速做出有效选择，输出结构化概率。
-- **可靠评测**：通过可复现的基准，衡量不同任务和模型的准确率、概率质量与校准表现。
-- **持续改进**：研究智能体如何复用经验、改进工具与工作流程，以及通过模型参数更新学习。
 
 ## 名字的由来
 
@@ -61,10 +58,10 @@
 
 ## 一起构建
 
-欢迎研究者与开发者参与：
+欢迎围绕决策模型、RSI 与 Agent 参与贡献与合作：
 
-- **[Valen-Decision](https://github.com/Valen-Team/Valen)**：贡献训练数据、模型改进、决策任务或智能体应用。
-- **[JevalKit](https://github.com/Valen-Team/JevalKit)**：申请或添加模型与基准支持，分享可复现的评测，或改进工具。
-- **[Awesome-RSI](https://github.com/Valen-Team/Awesome-RSI)**：推荐论文、项目、基准、数据集或模型，也欢迎作者自荐。
+- **决策模型与评测**：改进 [Valen-Decision](https://github.com/Valen-Team/Valen)，为 [JevalKit](https://github.com/Valen-Team/JevalKit) 添加模型或基准，贡献数据与可复现的实验结果。
+- **RSI 研究与方法**：贡献经验学习、Agent 系统演化或模型更新方法，为 [Awesome-RSI](https://github.com/Valen-Team/Awesome-RSI) 推荐论文与实现。
+- **Agent 与应用**：贡献 Agent 框架、工具、集成与应用，或提出适合组织开展的新 Agent、RSI 项目。
 
 请在相应仓库提交 Issue 或 Pull Request。文档、示例和翻译方面的贡献同样欢迎。
