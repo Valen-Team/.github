@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://valen-team.github.io/">Try Valen</a> ·
+  <a href="https://valen-team.github.io/">Try Valen-Decision</a> ·
   <a href="https://valen-team.github.io/docs/">Documentation</a> ·
   <a href="https://huggingface.co/Valen-Team">Hugging Face</a> ·
   <a href="https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard">Leaderboard</a>
@@ -24,13 +24,13 @@
 
 We build open models and tools for **fast multimodal decision-making**, and curate research on **recursive self-improvement (RSI)**. Our goal is to help agents perceive their environment, choose useful actions, and improve through feedback.
 
-Our projects connect three parts of that effort: **Valen** for making decisions, **JevalKit** for evaluating them, and **Awesome-RSI** for exploring how AI systems improve.
+Our projects connect three parts of that effort: **Valen-Decision** for making decisions, **JevalKit** for evaluating them, and **Awesome-RSI** for exploring how AI systems improve.
 
 ## Projects
 
 | Project | What it does | Explore |
 | :--- | :--- | :--- |
-| **[Valen](https://github.com/Valen-Team/Valen)** | A multimodal System One decision model: text, images, and video in; structured decision probabilities out. Includes training, fine-tuning, inference, and evaluation. | [Try it](https://valen-team.github.io/) · [Docs & API](https://valen-team.github.io/docs/valen/) |
+| **[Valen-Decision](https://github.com/Valen-Team/Valen)** | A multimodal System One decision model: text, images, and video in; structured decision probabilities out. Includes training, fine-tuning, inference, and evaluation. | [Try it](https://valen-team.github.io/) · [Docs & API](https://valen-team.github.io/docs/valen/) |
 | **[JevalKit](https://github.com/Valen-Team/JevalKit)** | An evaluation toolkit for Jev-like decision models, with unified model interfaces, prepared datasets, benchmark scoring, and a public leaderboard. | [Docs](https://valen-team.github.io/docs/jevalkit/) · [Leaderboard](https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard) |
 | **[Awesome-RSI](https://github.com/Valen-Team/Awesome-RSI)** | A curated collection of papers, code, benchmarks, datasets, and models for recursive self-improvement, organized around experience accumulation, system modification, and model parameter updates. | [Papers](https://github.com/Valen-Team/Awesome-RSI#papers) · [Projects](https://github.com/Valen-Team/Awesome-RSI#projects) |
 
@@ -38,12 +38,12 @@ Our projects connect three parts of that effort: **Valen** for making decisions,
 
 | Resource | What you can use it for |
 | :--- | :--- |
-| **Valen models** — [0.8B](https://huggingface.co/Valen-Team/Valen-0.8B) · [2B](https://huggingface.co/Valen-Team/Valen-2B) · [4B](https://huggingface.co/Valen-Team/Valen-4B) | Run or fine-tune a multimodal decision model. |
+| **Valen-Decision models** — [0.8B](https://huggingface.co/Valen-Team/Valen-0.8B) · [2B](https://huggingface.co/Valen-Team/Valen-2B) · [4B](https://huggingface.co/Valen-Team/Valen-4B) | Run or fine-tune a multimodal decision model. |
 | **[VisualDecisionBench](https://huggingface.co/datasets/Valen-Team/VisualDecisionBench)** | Evaluate decision-making from images and video. |
 | **[JevalKit Datasets](https://huggingface.co/datasets/Valen-Team/JevalKit_Datasets)** | Download prepared evaluation data for decision-model benchmarks. |
 | **[JevalKit Leaderboard](https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard)** | Compare models across benchmarks, inspect probability metrics, and download evaluation results. |
 
-Browse all releases on [Hugging Face](https://huggingface.co/Valen-Team), or start with the [documentation](https://valen-team.github.io/docs/) to use Valen and run evaluations with JevalKit.
+Browse all releases on [Hugging Face](https://huggingface.co/Valen-Team), or start with the [documentation](https://valen-team.github.io/docs/) to use Valen-Decision and run evaluations with JevalKit.
 
 ## Research Directions
 
@@ -63,7 +63,7 @@ Our Chinese name, **万澜** (*Wàn Lán*), evokes countless waves in motion. Th
 
 We welcome contributions from researchers and developers:
 
-- **[Valen](https://github.com/Valen-Team/Valen)** — contribute training data, model improvements, decision tasks, or agent applications.
+- **[Valen-Decision](https://github.com/Valen-Team/Valen)** — contribute training data, model improvements, decision tasks, or agent applications.
 - **[JevalKit](https://github.com/Valen-Team/JevalKit)** — request or add a model or benchmark, share reproducible evaluations, or improve the toolkit.
 - **[Awesome-RSI](https://github.com/Valen-Team/Awesome-RSI)** — suggest papers, projects, benchmarks, datasets, or models, including your own work.
 
