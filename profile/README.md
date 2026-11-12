@@ -15,7 +15,9 @@
 
 <p align="center">
   <a href="https://valen-team.github.io/">Website</a> ·
+  <a href="https://huggingface.co/spaces/Valen-Team/Valen-API">Playground</a> ·
   <a href="https://valen-team.github.io/docs/">Documentation</a> ·
+  <a href="https://valen-team.github.io/news/">News</a> ·
   <a href="https://huggingface.co/Valen-Team">Hugging Face</a> ·
   <a href="https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard">Leaderboard</a>
 </p>
@@ -38,13 +40,15 @@ These directions inform one another: decision models help agents choose actions;
 
 | Project | What it does | Explore |
 | :--- | :--- | :--- |
-| **[Valen-Decision](https://github.com/Valen-Team/Valen)** | A multimodal System One decision model: text, images, and video in; structured decision probabilities out. Includes training, fine-tuning, inference, and evaluation. | [Try it](https://valen-team.github.io/) · [Docs & API](https://valen-team.github.io/docs/valen/) |
+| **[Valen-Decision](https://github.com/Valen-Team/Valen)** | A multimodal System One decision model: text, images, and video in; structured decision probabilities out. Valen-Decision-1.5 comes in five sizes from 0.8B to 27B and answers bbox questions. Includes training, fine-tuning, inference, and evaluation. | [Try it](https://valen-team.github.io/) · [Playground](https://huggingface.co/spaces/Valen-Team/Valen-API) · [Docs & API](https://valen-team.github.io/docs/valen/) |
 | **[JevalKit](https://github.com/Valen-Team/JevalKit)** | An evaluation toolkit for Jev-like decision models, with unified model interfaces, prepared datasets, benchmark scoring, and a public leaderboard. | [Docs](https://valen-team.github.io/docs/jevalkit/) · [Leaderboard](https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard) |
 | **[Awesome-RSI](https://github.com/Valen-Team/Awesome-RSI)** | A curated collection of papers, code, benchmarks, datasets, and models for recursive self-improvement, organized around experience accumulation, system modification, and model parameter updates. | [Papers](https://github.com/Valen-Team/Awesome-RSI#papers) · [Projects](https://github.com/Valen-Team/Awesome-RSI#projects) |
 
 Our current public projects cover decision models, evaluation, and RSI research resources. We plan to expand the organization with more **agent and RSI projects**, sharing implementations, experiments, and reusable tools as they become available.
 
 ## Models, Datasets & Evaluation
+
+**New:** [Valen-Decision-1.5](https://valen-team.github.io/news/valen-decision-1.5/) is released in five sizes, as native weights, ONNX and GGUF. Get it from the [Valen-Decision-1.5 collection](https://huggingface.co/collections/Valen-Team/valen-decision-15).
 
 Browse all releases on [Hugging Face](https://huggingface.co/Valen-Team), or start with the [documentation](https://valen-team.github.io/docs/) to use Valen-Decision and run evaluations with JevalKit.
 

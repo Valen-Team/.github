@@ -15,7 +15,9 @@
 
 <p align="center">
   <a href="https://valen-team.github.io/">网站</a> ·
+  <a href="https://huggingface.co/spaces/Valen-Team/Valen-API">在线体验</a> ·
   <a href="https://valen-team.github.io/docs/">文档</a> ·
+  <a href="https://valen-team.github.io/zh-Hans/news/">动态</a> ·
   <a href="https://huggingface.co/Valen-Team">Hugging Face</a> ·
   <a href="https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard">排行榜</a>
 </p>
@@ -38,13 +40,15 @@
 
 | 项目 | 项目介绍 | 相关入口 |
 | :--- | :--- | :--- |
-| **[Valen-Decision](https://github.com/Valen-Team/Valen)** | 多模态 System One 决策模型：输入文本、图像和视频，输出结构化决策概率。提供训练、微调、推理与评测工具。 | [在线体验](https://valen-team.github.io/) · [文档与 API](https://valen-team.github.io/docs/valen/) |
+| **[Valen-Decision](https://github.com/Valen-Team/Valen)** | 多模态 System One 决策模型：输入文本、图像和视频，输出结构化决策概率。Valen-Decision-1.5 覆盖 0.8B 到 27B 五个尺寸，支持 bbox 问题。提供训练、微调、推理与评测工具。 | [在线体验](https://valen-team.github.io/) · [Playground](https://huggingface.co/spaces/Valen-Team/Valen-API) · [文档与 API](https://valen-team.github.io/docs/valen/) |
 | **[JevalKit](https://github.com/Valen-Team/JevalKit)** | 面向 Jev 类决策模型的开源评测工具，提供统一模型接口、预处理数据集、基准评分与公开排行榜。 | [文档](https://valen-team.github.io/docs/jevalkit/) · [排行榜](https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard) |
 | **[Awesome-RSI](https://github.com/Valen-Team/Awesome-RSI)** | 递归自我改进资源合集，涵盖论文、代码、基准、数据集与模型，围绕经验积累、系统修改和模型参数更新三条路径整理。 | [论文](https://github.com/Valen-Team/Awesome-RSI#papers) · [项目](https://github.com/Valen-Team/Awesome-RSI#projects) |
 
 目前公开的项目覆盖决策模型、评测与 RSI 研究资源。后续我们将陆续加入更多 **Agent 与 RSI 项目**，分享可用的实现、实验与可复用工具。
 
 ## 模型、数据集与评测
+
+**最新发布：**[Valen-Decision-1.5](https://valen-team.github.io/zh-Hans/news/valen-decision-1.5/) 已发布，五个尺寸均提供原生权重、ONNX 和 GGUF，可从 [Valen-Decision-1.5 合集](https://huggingface.co/collections/Valen-Team/valen-decision-15)获取。
 
 在 [Hugging Face](https://huggingface.co/Valen-Team) 浏览全部发布资源，或从[文档](https://valen-team.github.io/docs/)开始使用 Valen-Decision 和 JevalKit。
 
