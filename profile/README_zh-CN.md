@@ -41,10 +41,12 @@
 | 项目 | 项目介绍 | 相关入口 |
 | :--- | :--- | :--- |
 | **[Valen-Decision](https://github.com/Valen-Team/Valen)** | 多模态 System One 决策模型：输入文本、图像和视频，输出结构化决策概率。Valen-Decision-1.5 覆盖 0.8B 到 27B 五个尺寸，支持 bbox 问题。提供训练、微调、推理与评测工具。 | [在线体验](https://valen-team.github.io/) · [Playground](https://huggingface.co/spaces/Valen-Team/Valen-API) · [文档与 API](https://valen-team.github.io/docs/valen/) |
+| **SDK 与集成** | 在自己的技术栈里调用 Valen-Decision：[Python SDK](https://github.com/Valen-Team/valen-sdk-python)、[JavaScript SDK](https://github.com/Valen-Team/valen-sdk-js)、[C++ 文本集成](https://github.com/Valen-Team/valen-sdk-cpp)，面向 Claude Code、Cursor 和 Codex 的 [Agent skill](https://github.com/Valen-Team/skills)，以及 n8n、LangChain、Dify 和 Coze 的[工作流集成](https://github.com/Valen-Team/valen-integrations)。 | [ONNX 与 SDK 指南](https://valen-team.github.io/zh-Hans/docs/valen/onnx/) · [Cookbook](https://valen-team.github.io/zh-Hans/cookbook/) |
 | **[JevalKit](https://github.com/Valen-Team/JevalKit)** | 面向 Jev 类决策模型的开源评测工具，提供统一模型接口、预处理数据集、基准评分与公开排行榜。 | [文档](https://valen-team.github.io/docs/jevalkit/) · [排行榜](https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard) |
+| **[Roller](https://github.com/Valen-Team/Roller)** | 面向多模型、多 Harness 的 Agent 轨迹采集框架。在一次性 Docker 容器中运行 Claude Code、Codex、OpenClaw 等可调用工具的 Agent，在任务所在的容器内完成 Benchmark 评分，并保存原生 session、统一轨迹和 SFT 训练数据。覆盖 7 种 Harness 和 5 个 Benchmark。 | [快速开始](https://github.com/Valen-Team/Roller/blob/main/README_zh-CN.md#quick-start) · [文档](https://github.com/Valen-Team/Roller/blob/main/docs/zh/index.md) · [PyPI](https://pypi.org/project/roller-agent/) |
 | **[Awesome-RSI](https://github.com/Valen-Team/Awesome-RSI)** | 递归自我改进资源合集，涵盖论文、代码、基准、数据集与模型，围绕经验积累、系统修改和模型参数更新三条路径整理。 | [论文](https://github.com/Valen-Team/Awesome-RSI#papers) · [项目](https://github.com/Valen-Team/Awesome-RSI#projects) |
 
-目前公开的项目覆盖决策模型、评测与 RSI 研究资源。后续我们将陆续加入更多 **Agent 与 RSI 项目**，分享可用的实现、实验与可复用工具。
+目前公开的项目覆盖决策模型、评测、Agent 轨迹采集与 RSI 研究资源。后续我们将陆续加入更多 **Agent 与 RSI 项目**，分享可用的实现、实验与可复用工具。
 
 ## 模型、数据集与评测
 
@@ -66,6 +68,6 @@
 
 - **决策模型与评测**：改进 [Valen-Decision](https://github.com/Valen-Team/Valen)，为 [JevalKit](https://github.com/Valen-Team/JevalKit) 添加模型或基准，贡献数据与可复现的实验结果。
 - **RSI 研究与方法**：贡献经验学习、Agent 系统演化或模型更新方法，为 [Awesome-RSI](https://github.com/Valen-Team/Awesome-RSI) 推荐论文与实现。
-- **Agent 与应用**：贡献 Agent 框架、工具、集成与应用，或提出适合组织开展的新 Agent、RSI 项目。
+- **Agent 与应用**：为 [Roller](https://github.com/Valen-Team/Roller) 接入新的 Harness 或 Benchmark，贡献 Agent 框架、工具、集成与应用，或提出适合组织开展的新 Agent、RSI 项目。
 
 请在相应仓库提交 Issue 或 Pull Request。文档、示例和翻译方面的贡献同样欢迎。

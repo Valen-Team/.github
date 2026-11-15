@@ -41,10 +41,12 @@ These directions inform one another: decision models help agents choose actions;
 | Project | What it does | Explore |
 | :--- | :--- | :--- |
 | **[Valen-Decision](https://github.com/Valen-Team/Valen)** | A multimodal System One decision model: text, images, and video in; structured decision probabilities out. Valen-Decision-1.5 comes in five sizes from 0.8B to 27B and answers bbox questions. Includes training, fine-tuning, inference, and evaluation. | [Try it](https://valen-team.github.io/) · [Playground](https://huggingface.co/spaces/Valen-Team/Valen-API) · [Docs & API](https://valen-team.github.io/docs/valen/) |
+| **SDKs & integrations** | Call Valen-Decision from your own stack: the [Python SDK](https://github.com/Valen-Team/valen-sdk-python), the [JavaScript SDK](https://github.com/Valen-Team/valen-sdk-js), the [C++ text integration](https://github.com/Valen-Team/valen-sdk-cpp), an [agent skill](https://github.com/Valen-Team/skills) for Claude Code, Cursor and Codex, and [workflow integrations](https://github.com/Valen-Team/valen-integrations) for n8n, LangChain, Dify and Coze. | [ONNX & SDK guide](https://valen-team.github.io/docs/valen/onnx/) · [Cookbook](https://valen-team.github.io/cookbook/) |
 | **[JevalKit](https://github.com/Valen-Team/JevalKit)** | An evaluation toolkit for Jev-like decision models, with unified model interfaces, prepared datasets, benchmark scoring, and a public leaderboard. | [Docs](https://valen-team.github.io/docs/jevalkit/) · [Leaderboard](https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard) |
+| **[Roller](https://github.com/Valen-Team/Roller)** | Agent trajectory collection across models and Harnesses. Runs tool-using agents such as Claude Code, Codex and OpenClaw in disposable Docker containers, grades benchmark tasks in the container where they ran, and stores the native session, a unified trace and SFT training data. Covers seven Harnesses and five benchmarks. | [Quick start](https://github.com/Valen-Team/Roller#quick-start) · [Docs](https://github.com/Valen-Team/Roller/blob/main/docs/en/index.md) · [PyPI](https://pypi.org/project/roller-agent/) |
 | **[Awesome-RSI](https://github.com/Valen-Team/Awesome-RSI)** | A curated collection of papers, code, benchmarks, datasets, and models for recursive self-improvement, organized around experience accumulation, system modification, and model parameter updates. | [Papers](https://github.com/Valen-Team/Awesome-RSI#papers) · [Projects](https://github.com/Valen-Team/Awesome-RSI#projects) |
 
-Our current public projects cover decision models, evaluation, and RSI research resources. We plan to expand the organization with more **agent and RSI projects**, sharing implementations, experiments, and reusable tools as they become available.
+Our public projects cover decision models, evaluation, agent trajectory collection, and RSI research resources. We plan to expand the organization with more **agent and RSI projects**, sharing implementations, experiments, and reusable tools as they become available.
 
 ## Models, Datasets & Evaluation
 
@@ -66,6 +68,6 @@ We welcome contributions and collaboration across decision models, RSI, and agen
 
 - **Decision models and evaluation** — improve [Valen-Decision](https://github.com/Valen-Team/Valen), add models or benchmarks to [JevalKit](https://github.com/Valen-Team/JevalKit), or share data and reproducible results.
 - **RSI research and methods** — contribute approaches to learning from experience, evolving agent systems, or updating models; suggest papers and implementations for [Awesome-RSI](https://github.com/Valen-Team/Awesome-RSI).
-- **Agents and applications** — contribute agent frameworks, tools, integrations, and applications, or propose new agent and RSI projects for the organization.
+- **Agents and applications** — add Harnesses or benchmarks to [Roller](https://github.com/Valen-Team/Roller), contribute agent frameworks, tools, integrations, and applications, or propose new agent and RSI projects for the organization.
 
 Open an issue or submit a pull request in the relevant repository. Documentation, examples, and translations are welcome too.
