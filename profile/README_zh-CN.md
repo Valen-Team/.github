@@ -22,6 +22,13 @@
   <a href="https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard">排行榜</a>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valen-Team/.github/main/profile/assets/valen-ecosystem-zh-dark.svg" />
+    <img src="https://raw.githubusercontent.com/Valen-Team/.github/main/profile/assets/valen-ecosystem-zh.svg" alt="Valen 生态：Valen-Decision-1.5 输入文本、图像、视频与问题，输出 predicate、choice、score、bbox 类型化回答；四周是 SDK、Agent skill 与工作流集成，从托管 API 到 vLLM、SGLang、ONNX Runtime、llama.cpp、Ollama 的运行方式，JevalKit 评测，以及面向 Agent 与递归自我改进的 Roller 和 Awesome-RSI。" width="100%" />
+  </picture>
+</p>
+
 ---
 
 **Valen · 万澜**是一个聚合**快速决策模型**、**递归自我改进（Recursive Self-Improvement，RSI）**与 **Agent 智能体**的开源组织。我们开发并汇集模型、工具、研究资源与应用，帮助 Agent 快速做出决策、与环境交互，并通过经验与反馈持续改进。

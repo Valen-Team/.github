@@ -22,6 +22,13 @@
   <a href="https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard">Leaderboard</a>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valen-Team/.github/main/profile/assets/valen-ecosystem-dark.svg" />
+    <img src="https://raw.githubusercontent.com/Valen-Team/.github/main/profile/assets/valen-ecosystem.svg" alt="The Valen ecosystem: Valen-Decision-1.5 takes text, images and video with questions and returns typed answers (predicate, choice, score, bbox). Around it are the SDKs, agent skill and workflow integrations, the runtimes from the hosted API to vLLM, SGLang, ONNX Runtime, llama.cpp and Ollama, evaluation with JevalKit, and Roller and Awesome-RSI for agents and recursive self-improvement." width="100%" />
+  </picture>
+</p>
+
 ---
 
 **Valen** is an open-source organization bringing together **fast decision models**, **recursive self-improvement (RSI)**, and **agents**. We develop and bring together models, tools, research resources, and applications to help agents make decisions quickly, act in their environments, and improve through experience and feedback.
